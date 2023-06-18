@@ -1,3 +1,9 @@
 __pycache__
 venv/
 .env
+test_calculation.py
+calculation.py
+tem_before_split.py
+tem_with_nodatabase.py
+tem_with_raw_psql.py
+.pytest_cache
