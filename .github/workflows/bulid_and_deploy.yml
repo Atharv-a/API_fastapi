@@ -1,0 +1,39 @@
+name: Building and deployment
+on : [push,pull_request]
+# on:
+#   push:
+#     branches:
+#      - "main"
+#   pull_request:
+#     branches:
+#      - "main"
+# env:
+jobs:
+  job1:
+    enviornment:
+      name: api_development
+    env:
+      DATABASE_HOSTNAME=${{secrets.DATABASE_HOSTNAME}}
+      DATABASE_PORT=${{secrets.DATABASE_PORT}}
+      DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}}
+      DATABASE_NAME=${{secrets.DATABASE_NAME}}
+      DATABASE_USERNAME=${{secrets.DATABASE_USERNAME}}
+      SECRET_KEY=${{secrets.SECRET_KEY}}
+      ALGORITHM=${{secrets.ALGORITHM}}
+      ACCESS_TOKEN_EXPIRE_MINUTES=&{{secrets.ACCESS_TOKEN_EXPIRE_MINUTES}}
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling git repository
+        uses: actions/checkout@v3
+      - name: install python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+      - name: update pip
+        run: python -m pip install --upgrade pip
+      - name: install all dependencies
+        run: pip install -r requirements.txt
+      - name: install pytest for testing
+       run: |
+        pip install pytest
+        pytest
