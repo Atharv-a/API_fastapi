@@ -1,6 +1,6 @@
 name: Building and deployment
 on : [push,pull_request]
-jobs:
+
   job1:
     environment:
       name: api_development
