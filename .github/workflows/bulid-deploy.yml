@@ -10,7 +10,7 @@ on : [push,pull_request]
 # env:
 jobs:
   job1:
-    enviornment:
+    environment:
       name: api_development
     env:
       DATABASE_HOSTNAME=${{secrets.DATABASE_HOSTNAME}}
