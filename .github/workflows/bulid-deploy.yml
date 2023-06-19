@@ -59,7 +59,7 @@ jobs:
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/fastapi:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/fastapi:buildcache,mode=max
   delivery:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: [integration]
     environment: render_deployment
     steps:
