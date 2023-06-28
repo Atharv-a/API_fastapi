@@ -25,7 +25,7 @@ psycopg2==2.9.6
 pyasn1==0.5.0
 pycparser==2.21
 pydantic==1.10.8
-python-dotenv==0.21.1    #lastest version supported by render
+python-dotenv==0.21.1    #lastest version which is supported by render
 python-jose==3.3.0
 python-multipart==0.0.6
 PyYAML==6.0
