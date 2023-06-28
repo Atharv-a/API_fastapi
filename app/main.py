@@ -26,19 +26,3 @@ app.include_router(vote.router)
 @app.get("/")
 def root():
     return {"message": "Hello World"}
-
-# import psycopg2
-# import time 
-# from psycopg2.extras import RealDictCursor
-
-# while True:
-#     try:
-#         con =psycopg2.connect(host='localhost',database='fastapi',
-#                             user='postgres',password='data1base',cursor_factory=RealDictCursor)
-#         cursor=con.cursor()
-#         print("database connection was succesfull")
-#         break
-#     except Exception as error:
-#         print("connecting to database failed")
-#         print("error: ",error)
-#         time.sleep(2)
