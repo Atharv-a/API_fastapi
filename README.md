@@ -1,4 +1,4 @@
-# API_fastapi
+# Social_Media API
 - Developed a RESTful API using FastAPI, enabling users to perform CRUD operations on posts.
 - Implemented PostgreSQL as the backend database with the help of SQLAlchemy as the ORM(Object Relational mapping) for handling SQL queries.
 - Validated API functionality using Postman, ensuring accurate request/response handling and adherence to API specifications.
