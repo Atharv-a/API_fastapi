@@ -8,7 +8,7 @@
 Documentation for API https://social-media-api-do4q.onrender.com/docs
 
 ## Repository Walkthrough
-* **app**
+* **app**</br>
    Main code for the API is in app directory.
    App directory consists of
    **router directory**
@@ -20,7 +20,7 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
    - auth,oauth2,utils (It contains utility funtions used in authentication of user)
    - schema (defines the specifice schema that a data being send to/received by API  should follow)
    - database,models,config  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
-* **tests**
+* **tests**</br>
   tests directory contains files for testing the API. These test case are executed everytime ci/cd pipline is triggered.
   - database (this file contains code the creates  temporary database for test to use)
   - confest ( definition of the fixture functions in this file to make them accessible across multiple test files.)
