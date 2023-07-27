@@ -16,7 +16,7 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
    - **post** (All the CRUD operations the can be performed on the posts)
    - **user** (Operations for sign in/log in and authenticating user)
    - **votes** (operations for casting and keeping track of votes on posts)
-   - **dmain** (Responsible to integrate all operation files in the API)
+   - **main** (Responsible to integrate all operation files in the API)
    - **auth,oauth2,utils** (It contains utility funtions used in authentication of user)
    - **schema** (defines the specifice schema that a data being send to/received by API  should follow)
    - **database,models,config**  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
