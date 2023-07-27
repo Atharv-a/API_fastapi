@@ -23,5 +23,6 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
 * **tests**</br>
   tests directory contains files for testing the API. These test case are executed everytime ci/cd pipline is triggered.
   - database (this file contains code the creates  temporary database for test to use)
-  - confest ( definition of the fixture functions in this file to make them accessible across multiple test files.)
-  - test_posts,test_users,test_votes (these files contains tests to check that all functions of API are working properly.)
+  - confest ( definition of the fixture functions in this file to make them accessible across multiple test files)
+  - test_posts,test_users,test_votes (these files contains tests to check that all functions of API are working properly)
+
