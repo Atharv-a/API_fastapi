@@ -10,12 +10,12 @@
    Main code for the API is in app directory.
    App directory consists of
    - **router directory**
-   All the operations that API support are stored in the router directory in different files in on the basis of type of operation
-      - **post** (All the CRUD operations the can be performed on the posts)
-      - **user** (Operations for sign in/log in and authenticating user)
+   All the operations that API support are stored in the router directory in different files on the basis of type of operation
+      - **post** (all the CRUD operations that can be performed on the posts)
+      - **user** (operations for sign in/log in and authenticating user)
       - **votes** (operations for casting and keeping track of votes on posts)
-   - **main** (Responsible to integrate all operation files in the API)
-   - **auth,oauth2,utils** (It contains utility funtions used in authentication of user)
+   - **main** (responsible to integrate all operation files in the API)
+   - **auth,oauth2,utils** (they contains utility funtions used in authentication of user)
    - **schema** (defines the specifice schema that a data being send to/received by API  should follow)
    - **database,models,config**  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
 * **tests**</br>
