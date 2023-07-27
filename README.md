@@ -25,5 +25,11 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
   - **database** (this file contains code the creates  temporary database for test to use)
   - **confest** ( definition of the fixture functions in this file to make them accessible across multiple test files)
   - **test_posts,test_users,test_votes** (these files contains tests to check that all functions of API are working properly)
-  - 
+* **.github/workflow**</br>
+  Contains **build-deploy** file which defined the ci/cd pipline.
+* **Alembic,ALembic.ini**</br>
+  ALembic provides version control for the databases.
+* **DockerFile,docker_compose-dev,docker_compose-dev**</br>
+  DockerFile Specifies How a image will be created and build, docker-compose files build containers according to specified steps to run applications
 
+      
