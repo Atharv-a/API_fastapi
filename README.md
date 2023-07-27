@@ -16,6 +16,12 @@ All the operations that API support are stored in the router directory in differ
 - user (Operations for sign in/log in and authenticating user)
 - votes (operations for casting and keeping track of votes on posts)
 - main (Responsible to integrate all operation files in the API)
-- auth,oauth2 (It contains utility funtions used in authentication of user)
+- auth,oauth2,utils (It contains utility funtions used in authentication of user)
 - schema (defines the specifice schema that a data being send to/received by API  should follow)
-- database,models,settings
+- database,models,config  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
+
+  ### tests
+  tests directory contains files for testing the API. These test case are executed everytime ci/cd pipline is triggered.
+  -database (this file contains code the creates  temporary database for test to use)
+  -confest ( definition of the fixture functions in this file to make them accessible across multiple test files.)
+  -test_posts,test_users,test_votes (these files contains tests to check that all functions of API are working properly.)
