@@ -5,8 +5,6 @@
 - Created a CI/CD pipeline using GitHub Actions, automating the testing, building, and deployment processes for the API.
 - Hosted the API using Render hosting services, ensuring reliable and scalable deployment of the application.
 
-Documentation for API https://social-media-api-do4q.onrender.com/docs
-
 ## Repository Walkthrough
 * **app**</br>
    Main code for the API is in app directory.
@@ -32,4 +30,4 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
 * **DockerFile,docker_compose-dev,docker_compose-dev**</br>
   DockerFile Specifies How a image will be created and build, docker-compose files build containers according to specified steps to run applications
 
-      
+ Refer to https://social-media-api-do4q.onrender.com/docs for documentation and to try out API.
