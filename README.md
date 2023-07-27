@@ -6,3 +6,5 @@
 - Hosted the API using Render hosting services, ensuring reliable and scalable deployment of the application.
 
 Documentation for API https://social-media-api-do4q.onrender.com/docs
+
+## Repository Walkthrough
