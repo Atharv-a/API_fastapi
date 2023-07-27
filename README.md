@@ -11,11 +11,11 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
 * **app**</br>
    Main code for the API is in app directory.
    App directory consists of
-   **router directory**
+   -**router directory**
    All the operations that API support are stored in the router directory in different files in on the basis of type of operation
-   - **post** (All the CRUD operations the can be performed on the posts)
-   - **user** (Operations for sign in/log in and authenticating user)
-   - **votes** (operations for casting and keeping track of votes on posts)
+      - **post** (All the CRUD operations the can be performed on the posts)
+      - **user** (Operations for sign in/log in and authenticating user)
+      - **votes** (operations for casting and keeping track of votes on posts)
    - **main** (Responsible to integrate all operation files in the API)
    - **auth,oauth2,utils** (It contains utility funtions used in authentication of user)
    - **schema** (defines the specifice schema that a data being send to/received by API  should follow)
@@ -25,4 +25,5 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
   - **database** (this file contains code the creates  temporary database for test to use)
   - **confest** ( definition of the fixture functions in this file to make them accessible across multiple test files)
   - **test_posts,test_users,test_votes** (these files contains tests to check that all functions of API are working properly)
+  - 
 
