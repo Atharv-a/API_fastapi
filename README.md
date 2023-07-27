@@ -30,4 +30,5 @@
 * **DockerFile,docker_compose-dev,docker_compose-dev**</br>
   DockerFile Specifies How a image will be created and build, docker-compose files build containers according to specified steps to run applications
 
+## Try out API
  Refer to https://social-media-api-do4q.onrender.com/docs for documentation and to try out API.
