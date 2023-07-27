@@ -17,7 +17,7 @@
    - **main** (responsible to integrate all operation files in the API)
    - **auth,oauth2,utils** (they contains utility funtions used in authentication of user)
    - **schema** (defines the specifice schema that a data being send to/received by API  should follow)
-   - **database,models,config**  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
+   - **database,models,config**  (these files create connection to database, define table and schemas for respective table and provide session when there is a need to read/write in database)
 * **tests**</br>
   tests directory contains files for testing the API. These test case are executed everytime ci/cd pipline is triggered.
   - **database** (this file contains code the creates  temporary database for test to use)
