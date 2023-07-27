@@ -14,4 +14,8 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
 All the operations that API support are stored in the router directory in different files in on the basis of type of operation
 - post (All the CRUD operations the can be performed on the posts)
 - user (Operations for sign in/log in and authenticating user)
-- votes (operations for casting and keeping track of votes on posts) 
+- votes (operations for casting and keeping track of votes on posts)
+- main (Responsible to integrate all operation files in the API)
+- auth,oauth2 (It contains utility funtions used in authentication of user)
+- schema (defines the specifice schema that a data being send to/received by API  should follow)
+- database,models,settings
