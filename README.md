@@ -20,15 +20,15 @@
    - **database,models,config**  (these files create connection to database, define table and schemas for respective table and provide session when there is a need to read/write in database)
 * **tests**</br>
   tests directory contains files for testing the API. These test files are executed everytime ci/cd pipline is triggered.
-  - **database** (this file contains code the creates  temporary database for test to use)
-  - **confest** ( definition of the fixture functions in this file to make them accessible across multiple test files)
+  - **database** (this file contains code that creates a temporary database for tests to use)
+  - **confest** ( definition of the fixture functions is stored in this file to make them accessible across multiple test files)
   - **test_posts,test_users,test_votes** (these files contains tests to check that all functions of API are working properly)
 * **.github/workflow**</br>
   Contains **build-deploy** file which defines the ci/cd pipline.
 * **Alembic,ALembic.ini**</br>
-  ALembic provides version control for the databases.
+  ALembic provides version control for the database.
 * **DockerFile,docker_compose-dev,docker_compose-dev**</br>
-  DockerFile Specifies How a image will be created and build, docker-compose files build containers according to specified steps to run applications
+  DockerFile Specifies How a image will be created and build, docker-compose files build containers according to specified steps to run applications.
 
 ## Try out API
  Refer to https://social-media-api-do4q.onrender.com/docs for documentation and to try out API.
