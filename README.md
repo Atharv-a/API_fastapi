@@ -8,8 +8,8 @@
 Documentation for API https://social-media-api-do4q.onrender.com/docs
 
 ## Repository Walkthrough
--Main code for the API is in app directory.
--App directory consists of
+Main code for the API is in app directory.
+App directory consists of
 ### router directory
 All the operations that API support are stored in the router directory in different files in on the basis of type of operation
 - post (All the CRUD operations the can be performed on the posts)
