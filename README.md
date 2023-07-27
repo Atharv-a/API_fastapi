@@ -13,13 +13,13 @@ Documentation for API https://social-media-api-do4q.onrender.com/docs
    App directory consists of
    **router directory**
    All the operations that API support are stored in the router directory in different files in on the basis of type of operation
-   - post (All the CRUD operations the can be performed on the posts)
-   - user (Operations for sign in/log in and authenticating user)
-   - votes (operations for casting and keeping track of votes on posts)
-   - main (Responsible to integrate all operation files in the API)
-   - auth,oauth2,utils (It contains utility funtions used in authentication of user)
-   - schema (defines the specifice schema that a data being send to/received by API  should follow)
-   - database,models,config  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
+   - **post** (All the CRUD operations the can be performed on the posts)
+   - **user** (Operations for sign in/log in and authenticating user)
+   - **votes** (operations for casting and keeping track of votes on posts)
+   - **dmain** (Responsible to integrate all operation files in the API)
+   - **auth,oauth2,utils** (It contains utility funtions used in authentication of user)
+   - **schema** (defines the specifice schema that a data being send to/received by API  should follow)
+   - **database,models,config**  (these files create connection to database, define table and schemas for respective table and provide session when need read/write in database)
 * **tests**</br>
   tests directory contains files for testing the API. These test case are executed everytime ci/cd pipline is triggered.
   - **database** (this file contains code the creates  temporary database for test to use)
