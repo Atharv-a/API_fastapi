@@ -27,7 +27,7 @@
   Contains **build-deploy** file which defines the ci/cd pipline.
 * **Alembic,ALembic.ini**</br>
   ALembic provides version control for the database.
-* **DockerFile,docker_compose-dev,docker_compose-dev**</br>
+* **DockerFile,docker_compose-dev,docker_compose-prod**</br>
   DockerFile Specifies How a image will be created and build, docker-compose files build containers according to specified steps to run applications.
 
 ## Try out API
